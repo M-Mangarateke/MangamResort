@@ -50,7 +50,7 @@ Browse to the indicated `http://localhost` / `https://localhost` URL.
 
 ## Email & QR Codes
 - Emails send via `System.Net.Mail.SmtpClient` using `EmailSettings` values; the QR PNG is attached if present.
-- QR codes are saved under `wwwroot/qrCodes`. A helper `SaveToBlobStorage` exists if you want to push QR images to Azure Blob Storage—call it after generation if desired.
+- QR codes are saved under `wwwroot/qrCodes`. A helper `SaveToBlobStorage` exists if you want to push QR images to Azure Blob Storage, call it after generation if desired.
 
 ## Project Structure
 - `Pages/` Razor Pages for Home, Tickets, TicketConfirmation, PaymentSuccess/Failed, Accommodation, Contact, Privacy.
