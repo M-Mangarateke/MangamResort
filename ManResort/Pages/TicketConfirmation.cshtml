@@ -1,0 +1,60 @@
+﻿@page
+@model ManResort.Pages.TicketConfirmationModel
+@using Newtonsoft.Json; <!-- Ensure Newtonsoft.Json is available -->
+@using ManResort.Model; <!-- Ensure the namespace for Ticket is available -->
+@{
+    ViewData["Title"] = "Confirm Purchase";
+    var ticket = JsonConvert.DeserializeObject<Ticket>((string)TempData["Ticket"]);
+}
+<br />
+<br />
+<br />
+<div class="tikform-container">
+<h2>Confirm Your Purchase</h2>
+
+<p><b>Name:</b> @ticket.CustomerName</p>            
+<p><b>Email:</b> @ticket.CustomerEmail</p>
+<p><b>Redeem Date:</b> @ticket.RedeemDate.ToShortDateString()</p>
+<p><b>Total Price:</b> R @ticket.TotalPrice</p>
+
+    <button id="confirmButton" style="background-color: #228b22; color: white; border-radius: 5px; border: none; padding: 10px 20px;">Confirm and Pay</button>
+</div>
+
+<script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+<script>
+    const yoco = new window.YocoSDK({
+        publicKey: '@Model.YocoPublicKey'
+    });
+
+    document.getElementById('confirmButton').addEventListener('click', async () => {
+        const amount = @ticket.TotalPrice * 100; 
+
+        const tokenResult = await yoco.showPopup({
+            amountInCents: amount,
+            currency: 'ZAR'
+        });
+
+        if (tokenResult.error) {
+            alert("Payment failed: " + tokenResult.error.message);
+        } else {
+            const paymentToken = tokenResult.token;
+
+            const response = await fetch('/Tickets/ProcessPayment', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    token: paymentToken,
+                    amount: amount
+                })
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                window.location.href = "/PaymentSuccess";
+            } else {
+                alert("Payment Failed: " + result.message);
+                window.location.href = "/PaymentFailed";
+            }
+        }
+    });
+</script>

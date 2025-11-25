@@ -1,0 +1,349 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    }
+
+<svg viewBox="0 0 100 20">
+    <defs>
+        <linearGradient id="gradient">
+            <stop stop-color="white" offset="0%" />
+            <stop stop-color="white" offset="100%" />
+        </linearGradient>
+        <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+            <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)">
+                <animateTransform attributeName="transform"
+                                  begin="0s"
+                                  dur="1.5s"
+                                  type="translate"
+                                  from="0,0"
+                                  to="40,0"
+                                  repeatCount="indefinite" />
+            </path>
+        </pattern>
+    </defs>
+    <text text-anchor="middle" x="50" y="15" font-size="13" fill="white" fill-opacity="0.1">Mangam Resort</text>
+    <text text-anchor="middle" x="50" y="15" font-size="13" fill="url(#wave)" fill-opacity="1">Mangam Resort</text>
+</svg>
+
+<svg viewBox="0 0 100 20">
+    <defs>
+        <linearGradient id="gradient">
+            <stop stop-color="white" offset="0%" />
+            <stop stop-color="white" offset="100%" />
+        </linearGradient>
+        <pattern id="wave" x="0" y="-0.5" width="100%" height="100%" patternUnits="userSpaceOnUse">
+            <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)">
+                <animateTransform attributeName="transform"
+                                  begin="0s"
+                                  dur="1.5s"
+                                  type="translate"
+                                  from="0,0"
+                                  to="40,0"
+                                  repeatCount="indefinite" />
+            </path>
+        </pattern>
+    </defs>
+    <text text-anchor="middle" x="50" y="15" font-size="13" fill="white" fill-opacity="0.1">& Guesthouse</text>
+    <text text-anchor="middle" x="50" y="15" font-size="13" fill="url(#wave)" fill-opacity="1">& Guesthouse</text>
+    
+</svg>
+
+<a href="/Tickets" class="button"><span>Buy Tickets!</span></a>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="container mt-5" style="color: white;">
+    <h2>Resort Photo Gallery</h2>
+    <br />
+    <p>Get a view of the lovely pictures taken in and around our premises.</p>
+</div>
+
+<div class="instacontainer">
+    <aside class="carousel">
+        <div class="carousel__wrapper">
+            <div class="item" id="slide-0"><img src="Images/ResImage1.jpg" alt="ResImg1" width="418" height="418" /></div>
+            <div class="item" id="slide-1"><img src="Images/ResImage2.jpg" alt="ResImg2" width="418" height="418" /></div>
+            <div class="item" id="slide-2"><img src="Images/ResImage3.jpg" alt="ResImg3" width="418" height="418" /></div>
+            <div class="item" id="slide-3"><img src="Images/ResImage4.jpg" alt="ResImg4" width="418" height="418" /></div>
+            <div class="item" id="slide-4"><img src="Images/ResImage5.jpg" alt="ResImg5" width="418" height="418" /></div>
+            <div class="item" id="slide-5"><img src="Images/ResImage6.jpeg" alt="ResImg6" width="418" height="418" /></div>
+            <div class="item" id="slide-6"><img src="Images/ResImage7.jpg" alt="ResImg7" width="418" height="418" /></div>
+        </div>
+    </aside>
+    <article class="instagram">
+        <header class="instagram__header">
+            <figure>
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBEQACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABAIFBgMBB//EADoQAAIBAwMACAMGAwkBAAAAAAECAwAEEQUSIQYTIjEyQVGBYXGRFCNSobHwQoKiFRYkQ2KywdHhB//EABoBAAIDAQEAAAAAAAAAAAAAAAAFAgMEAQb/xAA1EQABAgMEBwgBBAMBAAAAAAABAAIDBBEFEiExQVFhcaHR8BMiMjOBkbHB4QYjQvEUcqJi/9oADAMBAAIRAxEAPwD7jQhFCEUIRQhFCEUIRQhFCEUIRQhFCEvP4x8qT2h5o3c1Y3JMU4VaKEIoQihCDxQhU2sdJdO0smOWQyTj/Ki5I+fkKxTE/BgYE1OoLdK2dHmcWig1nrFZqfp9PuPUWMar5dZISfyxS11sur3WJuywG/yf7BStun0u4C5skK+ZikIP0NdbbJ/kxciWAKdx/uFp9I6Qafq3ZtpSsw74ZBhv/famkvOQpgdw46kmmZGPLeYMNehWtalkRQhLT+MfKk9oeaN3NWNyTNOFWihCKEKDyojIrHtOcKPWq3xWMc1rjiclyoWZ6V63cRyppWkBmvZgNxTvQH09D8fIUvnpp7XCDB8RTezpNjgZiPgwceuKp7Po5BbybLqOTUb/AL2t4n2xx557b/v5GpSlisp2ky7r5Pwq5/8AUcS8YUo3HrPQOJV/b6VqUa/cDS7JfJYbbefcnGabshyUMUaw8B9JG+JaUY1fEA9z9rnd2Gp4P2qy03U4/NRH1cnsTxXXwJGMLrgRvxHNcZMWnLm80h26rTyWeutEguBJdaCZobq3OZLKU4kjPqp7/wB9/lSOfsV0CkSAcNn1yXorM/UMOarBmM9NRiN4+wtH0Q186pC1vdt/i4hye7rF9fn61ZZ8527br/EOKhach/jOvs8B4bOS0lMkrS0/j9qT2h5o3c1YzJM04VaKEJTUZGjhGx3VmOAI1ySawWjFdDhd0kEmgoASfdQiEhuCoW1GZdQhhlObhY5HTcueypUMeODjev1+FeZEe0C/t3Nr2dRU40rnlnTZ6qgdqe9qwXfTrAwvLdRgfa745M5O4xjz47uP1wK9FZcN+MaLQ3saj4otkeajxYTYVRQZU+VeWlrFaQCGFcKOT5knzJPmT601c8uNSqYcNsNt1oXaoqxQYv1gAVSvmS3I9qEKv1bTTcbbq0Ijv4OYpPxf6W9VNXwot3uu8Jz571kmZcv/AHIeDxkfo7CsbqkiadrFhrtshjhuDulT8DA4kU/n7g1560IJkpwRW5E9e4xXqLLji0ZB0J2YGHL0Iovog5AxTpIkvP4/ak9oeaN3NWMyTNOFWihCo9e6V6JoNyltqt4sNxJE0scewlnA4wMDkk8Ad5q2HLxIuLBVRc4NzWGPSicatYX97aGDTI5XaRAN8sIcODvx4lIKEgcqVHeM1dDsPsILg01NSffR1msEvacExDCGnI7VuBqUURgS2KSwuN8Txc7kyCcHzHaXkeorykeZiyX7bGG406Btyx9sFrJLchgraNhcwK/bQNg8Ng/UU6gRRGhh4FK9aFaDUVXU5KkA4PrVy6vIUdEAkkMjebEAfpQhToQsT02gCaVc9wC3yuvw3Jz+eTS+2helmnV+Uy/T1WTj2jI/g/K19hk2Nvu8XVLn6CtsPwDcsEWl91NajP4/alVoeaN3NdbkmacKtL39ybOzmuFgmuDGhYQwLudz6KPWugVNEL5VrNrqN3rI1fpDarFebClrEBlYIwe4H+JueW+PGBXopFsJsOkN1da83akzGJuULW/Kt9VsdNg05ZLR4jPuQELPvONuTx86qlo0d8W7Eyx0Kqbl5ZkG9DOOGmvBKdFl1HSbrr7KwmvNIdwJYY1y1uQSd0fqMtkp7jnIOa1JaXikFxo4UO+mVUwsyZjRG3HgkDI819PRQqhVAAHcBShjGsaGtFAnK87CyZ7IZ/qakheM0ZkCll3DnGea7RRvtvXa4roK4pLK9M4ftb2Gmx56y7ugzY8lUYJ9gc+1LLRBiXII0ngmtlEQTFmD/EcTl8LUqAqgDgAcUzAolSXn8ftSe0PNG7mrGZJmnCrRQhYH/wCgX9qNQt7eSeOOaKNj1TN23Bxjave3cRx6U4sw3WuJGB6x1JNaktEjubcGVfpUtpp+o3SLJBpU0aNj77UZBap7Lhnb6LWuJNtBIDh6Yn6HErMyzYUNodHdTh+Sr6xh6Q6bb7LW/wBJij3FjHJp1xtz8ZC/549qXxXQozrzmkn/AGb8UW2DMy0u262oGstdT3ITc3SS8tYBHr1sdMDYxqNs3X2x/nxlP5lx8apEs1x/aN7YcD7afQreIl5oc2m/QrFLO1kiWdYkukkAbrYlErSemZGOfpjHlWcuLTTI7eSr7OI/xOoNnPl7phba4uV2dUllAefCryt+qj+r2rl6mOasECEG3Q0UTMEEtoDuujLEByZR2h7jA/KoOcM1Y1t3AJaxs2n1OXVLpSGZert0bvjj9T8SefgMCskOGXRDGduG78rZEihsIQWbztPIK2rUsqWn8ftSa0PNG7mrGZJmnKrRQhRZQ3fx8jihcIquaW0SPvVRv/EeT9TXbxOCrbBhtdeAx16fddTyK4rUlLYAFmtXETN4k25R/mv/AFVgiaHY/KwvkrpL5c3D/wAnePsUKzsnRaGGdptOS+0mZjln0q4UROfUxP2f6a1f5JcKPIcP/Qx9xjxURFmGYPhHe0gjiQU5baZrWNk3SHUdv4jbWob/AGn9KqfEhaIY93c1oY97s2kb6fRKurazWEZeaaZ/NpXz+QwB7Cs7iCrwmq4uooQlp/GPlSe0PNG7mrG5JmnCrWb6f22pX+grYaRJcQ3F1dQRNcW5IaBN4LPkEYAANXS7mNfefkK/C4a0wWPEfTgJqrXUF093q1tDHGkEpEdmwdo3Kt3Kdnbz6kVprL1aBkCfXT84KPeXOa36cPaWSWyXsd1p9ndwSpLISt2AyiPLA4LlCSG/Ep7s10OlrxvZEj018eCO8p/Yuk66hamS31iW6DWvUTLdssEUQjTrA4zgtuD7gwJbjFcvQrpxGnRjXQjFeD++Txa281nqUY1iEtbKJNxs26zaAAD9392wJ+KE0VlxdxHdz29FGKteitn0qt+lMM+uyzy2v2OWyADkx/dNHsmYZxvk7Z+VQjOgmHdYMa1964ei6K1xWiSC5SOPrEZRtjyAruDwckgHOc/v0ThrgMdi2F7ScNqnJHN1rmBZS5XsnYybRs8iTjGf4TyCc1Ih1cOsOsFEEU73WPv6qckZc7bSKZUO0SCQMATvX15PG7JoIr4R1UIBp4j1QqdvatvhaWNgwZ8jJwvpj4en/HdUmwzUEjWoueKEAp6fxD5UvtDzRu5qLckxThVqLqWUgMVPqPKovBIoDRCqdSsr+SW2e1mV+qbd96dozxjwjkd/p9Mipy1IbXCI4ursH1T7WWNDiuc0sOXXXKq6ajaXM1ykkSxuAm0CR2URtnO4ADnj5d3xNWMc0ChUosN5cC3+tqXuNPv5Euo1dADFcLE29skyEFc8cbcY86m2IwEEjSK+nNVPgxXBwB0Op68l7/Z1zvtGREHVE7wz5GCwJOAo5x5jHxzXL7aEHripdi+rSNHWrNMRae0Wn3cKBVllMuwgngEnbz5YBFRMQF4J0UUxBIhuaMzX8Lg2nXeWLyC5UyqxSV9ocBMYOB5HnuqXaN0Cn9qBgxNJrw0KMen36NGDIrKUhWRjI2U6t2Y447WQ2MnHdzQYjCMtfEKIgxQRjq4En11Lm2l3vVSJ2CpmDjMmWI7Wcnbg94xkeXfUhFYDXZq/K52ESlNtfnYriCGRAm6VgAB93gYHHdnArB2b796+aaqDlXitjQQifxj5UttDzRu5q5uSYpwq0UIRQhFCEUIRQhFCEUIRQhFCEUIS0/j9qTWh5o3c1YzJM05VaKEIoQihCKEIoQihCKEIoQihCKEJafx+1JrQ80buasZkv//Z" alt="Logo" width="42" height="42" />
+                <figcaption>
+                    <h4 style=" color: white;">Mangam Resort</h4>
+                </figcaption>
+            </figure>
+        </header>
+        <section class="instagram__media">
+            <div class="img"></div>
+        </section>
+        <footer class="instagram__buttons">
+            <div class="left">
+                <svg class="instagram__icon instagram__icon--heart" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M16.8196 3.40477L16.8196 3.40468L16.8105 3.40435C15.9939 3.37401 15.1837 3.55848 14.4607 3.93934C13.7415 4.31818 13.1337 4.87813 12.6974 5.56376C12.3799 6.0141 12.1595 6.38237 12.0011 6.66645C11.841 6.38254 11.6182 6.01451 11.2971 5.5646C10.8588 4.88294 10.252 4.32584 9.53521 3.94728C8.81455 3.56666 8.00746 3.37954 7.19284 3.40423L7.19283 3.40408L7.18038 3.40477C5.73422 3.48471 4.37827 4.133 3.40801 5.20836C2.44041 6.28078 1.93462 7.69124 1.99999 9.13385C2.00344 10.8131 2.73878 12.1587 3.76066 13.3486C4.54375 14.2605 5.52952 15.1172 6.516 15.9745C6.80035 16.2216 7.08476 16.4688 7.36439 16.7173C7.71256 17.0283 8.0484 17.3289 8.36875 17.6156C9.03981 18.2163 9.64287 18.7561 10.1488 19.2024C10.8808 19.8482 11.4505 20.3358 11.7281 20.5156L11.9996 20.6915L12.2713 20.516C12.5291 20.3494 13.0097 19.9415 13.7041 19.3303C14.2257 18.8712 14.8883 18.2789 15.7018 17.5517C15.9935 17.2909 16.3047 17.0128 16.6357 16.7172C16.9253 16.4597 17.2205 16.2037 17.5157 15.9477C18.4876 15.105 19.4601 14.2617 20.2346 13.3628C21.2586 12.1744 21.9965 10.8264 22 9.13385C22.0653 7.69123 21.5596 6.28078 20.592 5.20836C19.6217 4.133 18.2657 3.48471 16.8196 3.40477ZM11.6142 4.35506L11.9954 4.80294L12.3761 4.35467C12.9155 3.71951 13.5913 3.21422 14.3531 2.87644C15.1144 2.53889 15.9419 2.37731 16.7742 2.40369C18.4866 2.47112 20.1027 3.21362 21.2694 4.46897C22.4364 5.72476 23.0588 7.39158 23.0003 9.10494L23 9.11347V9.122C23 12.4787 20.5608 14.6294 18.1924 16.6842C17.8966 16.94 17.598 17.2003 17.3031 17.462L17.3018 17.4632L16.3798 18.2872L16.3736 18.2927L16.3676 18.2985C15.2327 19.3827 14.0415 20.4065 12.7991 21.3656C12.5599 21.5162 12.2829 21.5962 12 21.5962C11.7171 21.5962 11.4402 21.5162 11.201 21.3657C9.9972 20.4352 8.84189 19.4436 7.73965 18.3948L7.73401 18.3894L7.7282 18.3842L6.7012 17.4662L6.70057 17.4657C6.43759 17.2314 6.17305 17.0015 5.91337 16.7758C5.88988 16.7554 5.86643 16.735 5.84303 16.7147C3.34442 14.5424 0.999982 12.4694 0.999982 9.122V9.11347L0.999691 9.10494C0.941196 7.39158 1.56352 5.72476 2.73058 4.46897C3.89709 3.21378 5.51295 2.47131 7.2251 2.40372C8.0557 2.37962 8.88112 2.54227 9.6405 2.87968C10.4006 3.21742 11.0751 3.72163 11.6142 4.35506Z"></path>
+                </svg>
+                <svg class="instagram__icon instagram__icon--comment" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20.656 17.008C21.8711 14.9061 22.2795 12.4337 21.8048 10.0527C21.3301 7.67172 20.0048 5.54497 18.0765 4.06978C16.1482 2.59458 13.7488 1.87186 11.3266 2.0366C8.9043 2.20135 6.62486 3.24231 4.91408 4.96501C3.20329 6.68772 2.17817 8.97432 2.03024 11.3977C1.8823 13.821 2.62166 16.2153 4.1102 18.1334C5.59874 20.0514 7.73463 21.3619 10.1189 21.82C12.5031 22.2782 14.9726 21.8527 17.066 20.623L22 22L20.656 17.008Z"></path>
+                </svg>
+                <svg class="instagram__icon instagram__icon--message" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M22 3 9.218 10.083M11.698 20.334 22 3.001H2L9.218 10.084 11.698 20.334Z"></path>
+                </svg>
+            </div>
+            <div class="right">
+                <svg class="instagram__icon instagram__icon--saved" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M20 21L12 13.44L4 21V3H20V21Z"></path>
+                </svg>
+            </div>
+        </footer>
+    </article>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+<h1 style="color: white">About Us</h1>
+
+<div class="aboutrow">
+    <div class="aboutcolumn">
+        <img src="https://mangamresort.co.za/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-15-at-9.56.40-AM-1.jpeg" />
+    </div>
+    <div class="aboutcolumn">
+        <p1>Welcome to Mangam Resort & Guest House, the ultimate destination for an unforgettable holiday experience. Nestled in Pretoria's serene countryside, our resort offers a range of amenities to ensure your stay is both refreshing and exhilarating. Dive into the fun with our multiple expansive swimming pools, featuring thrilling slides for all ages. Kids and adults alike can bounce with joy on our trampolines and jungle gyms, creating endless moments of laughter. Our versatile event spaces are perfect for any occasion, from intimate celebrations to grand gatherings. Enjoy the comfort of our flexible accommodations, whether you're here for a few hours or an extended stay. Convenient change rooms and a well-stocked convenience store cater to all your needs. Savor delicious meals at our braai areas, and relax in our reservable lapas for a private retreat. At Mangam Resort, every detail is designed to provide you with a relaxing, rejuvenating, and memorable experience.</p1>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="container">
+    <h1 style="color: white">Need To Knows</h1>
+    <br />
+    <div class="service-cards">
+        <div class="card">
+            <h2>Prices</h2>
+            <p>Adults(13+): R80</p>
+            <p>Kids(12-): R50</p>
+            <p>Babies(2-): Free</p>
+            <p>Cooler Box: R20</p>
+            <p>Lapas: Call for reservation.</p>
+        </div>
+        <div class="card">
+            <h2>Location</h2>
+            <p>Molefe Makinta highway , Soshanguve ,0152</p>
+        </div>
+        <div class="card">
+            <h2>Limitations</h2>
+            <p>Limited chairs and lapas, these will be distributed firstly on paid and then first come first serve basis. We recommend you bring your own camp chair and shade.</p>
+        </div>
+        <div class="card">
+            <h2>Refunds</h2>
+            <p>No ticket refunds after purchase. Make sure you buy the correct age ticket, as Kids tickets will be restricted to Kids pools!</p>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+<div class='amenwrapper'>
+    <div class="faciheading" style=" text-align: center;">
+        <h2 style="color: white;">Amenities & Facilities</h2>
+        <p style="color: white;">If you are looking for a relaxing, refreshing and rejuvenating experience altogether, we offer all of that under one roof.</p>
+    </div>
+    <div class='amencarousel'>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,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" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Swimming Pools</p>
+                <p>Enjoy the refreshing waters of our two swimming pools, complete with exhilarating slides. One of the pools features an even bigger slide for the ultimate splash and thrill.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,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" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Slides</p>
+                <p>Get ready for an adrenaline rush with our thrilling water slides, designed for all ages to enjoy.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBEQACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABAIFBgMBB//EADoQAAIBAwMACAMGAwkBAAAAAAECAwAEEQUSIQYTIjEyQVGBYXGRFCNSobHwQoKiFRYkQ2KywdHhB//EABoBAAIDAQEAAAAAAAAAAAAAAAAFAgMEAQb/xAA1EQABAgMEBwgBBAMBAAAAAAABAAIDBBEFEiExQVFhcaHR8BMiMjOBkbHB4QYjQvEUcqJi/9oADAMBAAIRAxEAPwD7jQhFCEUIRQhFCEUIRQhFCEUIRQhFCEvP4x8qT2h5o3c1Y3JMU4VaKEIoQihCDxQhU2sdJdO0smOWQyTj/Ki5I+fkKxTE/BgYE1OoLdK2dHmcWig1nrFZqfp9PuPUWMar5dZISfyxS11sur3WJuywG/yf7BStun0u4C5skK+ZikIP0NdbbJ/kxciWAKdx/uFp9I6Qafq3ZtpSsw74ZBhv/famkvOQpgdw46kmmZGPLeYMNehWtalkRQhLT+MfKk9oeaN3NWNyTNOFWihCKEKDyojIrHtOcKPWq3xWMc1rjiclyoWZ6V63cRyppWkBmvZgNxTvQH09D8fIUvnpp7XCDB8RTezpNjgZiPgwceuKp7Po5BbybLqOTUb/AL2t4n2xx557b/v5GpSlisp2ky7r5Pwq5/8AUcS8YUo3HrPQOJV/b6VqUa/cDS7JfJYbbefcnGabshyUMUaw8B9JG+JaUY1fEA9z9rnd2Gp4P2qy03U4/NRH1cnsTxXXwJGMLrgRvxHNcZMWnLm80h26rTyWeutEguBJdaCZobq3OZLKU4kjPqp7/wB9/lSOfsV0CkSAcNn1yXorM/UMOarBmM9NRiN4+wtH0Q186pC1vdt/i4hye7rF9fn61ZZ8527br/EOKhach/jOvs8B4bOS0lMkrS0/j9qT2h5o3c1YzJM04VaKEJTUZGjhGx3VmOAI1ySawWjFdDhd0kEmgoASfdQiEhuCoW1GZdQhhlObhY5HTcueypUMeODjev1+FeZEe0C/t3Nr2dRU40rnlnTZ6qgdqe9qwXfTrAwvLdRgfa745M5O4xjz47uP1wK9FZcN+MaLQ3saj4otkeajxYTYVRQZU+VeWlrFaQCGFcKOT5knzJPmT601c8uNSqYcNsNt1oXaoqxQYv1gAVSvmS3I9qEKv1bTTcbbq0Ijv4OYpPxf6W9VNXwot3uu8Jz571kmZcv/AHIeDxkfo7CsbqkiadrFhrtshjhuDulT8DA4kU/n7g1560IJkpwRW5E9e4xXqLLji0ZB0J2YGHL0Iovog5AxTpIkvP4/ak9oeaN3NWMyTNOFWihCo9e6V6JoNyltqt4sNxJE0scewlnA4wMDkk8Ad5q2HLxIuLBVRc4NzWGPSicatYX97aGDTI5XaRAN8sIcODvx4lIKEgcqVHeM1dDsPsILg01NSffR1msEvacExDCGnI7VuBqUURgS2KSwuN8Txc7kyCcHzHaXkeorykeZiyX7bGG406Btyx9sFrJLchgraNhcwK/bQNg8Ng/UU6gRRGhh4FK9aFaDUVXU5KkA4PrVy6vIUdEAkkMjebEAfpQhToQsT02gCaVc9wC3yuvw3Jz+eTS+2helmnV+Uy/T1WTj2jI/g/K19hk2Nvu8XVLn6CtsPwDcsEWl91NajP4/alVoeaN3NdbkmacKtL39ybOzmuFgmuDGhYQwLudz6KPWugVNEL5VrNrqN3rI1fpDarFebClrEBlYIwe4H+JueW+PGBXopFsJsOkN1da83akzGJuULW/Kt9VsdNg05ZLR4jPuQELPvONuTx86qlo0d8W7Eyx0Kqbl5ZkG9DOOGmvBKdFl1HSbrr7KwmvNIdwJYY1y1uQSd0fqMtkp7jnIOa1JaXikFxo4UO+mVUwsyZjRG3HgkDI819PRQqhVAAHcBShjGsaGtFAnK87CyZ7IZ/qakheM0ZkCll3DnGea7RRvtvXa4roK4pLK9M4ftb2Gmx56y7ugzY8lUYJ9gc+1LLRBiXII0ngmtlEQTFmD/EcTl8LUqAqgDgAcUzAolSXn8ftSe0PNG7mrGZJmnCrRQhYH/wCgX9qNQt7eSeOOaKNj1TN23Bxjave3cRx6U4sw3WuJGB6x1JNaktEjubcGVfpUtpp+o3SLJBpU0aNj77UZBap7Lhnb6LWuJNtBIDh6Yn6HErMyzYUNodHdTh+Sr6xh6Q6bb7LW/wBJij3FjHJp1xtz8ZC/549qXxXQozrzmkn/AGb8UW2DMy0u262oGstdT3ITc3SS8tYBHr1sdMDYxqNs3X2x/nxlP5lx8apEs1x/aN7YcD7afQreIl5oc2m/QrFLO1kiWdYkukkAbrYlErSemZGOfpjHlWcuLTTI7eSr7OI/xOoNnPl7phba4uV2dUllAefCryt+qj+r2rl6mOasECEG3Q0UTMEEtoDuujLEByZR2h7jA/KoOcM1Y1t3AJaxs2n1OXVLpSGZert0bvjj9T8SefgMCskOGXRDGduG78rZEihsIQWbztPIK2rUsqWn8ftSa0PNG7mrGZJmnKrRQhRZQ3fx8jihcIquaW0SPvVRv/EeT9TXbxOCrbBhtdeAx16fddTyK4rUlLYAFmtXETN4k25R/mv/AFVgiaHY/KwvkrpL5c3D/wAnePsUKzsnRaGGdptOS+0mZjln0q4UROfUxP2f6a1f5JcKPIcP/Qx9xjxURFmGYPhHe0gjiQU5baZrWNk3SHUdv4jbWob/AGn9KqfEhaIY93c1oY97s2kb6fRKurazWEZeaaZ/NpXz+QwB7Cs7iCrwmq4uooQlp/GPlSe0PNG7mrG5JmnCrWb6f22pX+grYaRJcQ3F1dQRNcW5IaBN4LPkEYAANXS7mNfefkK/C4a0wWPEfTgJqrXUF093q1tDHGkEpEdmwdo3Kt3Kdnbz6kVprL1aBkCfXT84KPeXOa36cPaWSWyXsd1p9ndwSpLISt2AyiPLA4LlCSG/Ep7s10OlrxvZEj018eCO8p/Yuk66hamS31iW6DWvUTLdssEUQjTrA4zgtuD7gwJbjFcvQrpxGnRjXQjFeD++Txa281nqUY1iEtbKJNxs26zaAAD9392wJ+KE0VlxdxHdz29FGKteitn0qt+lMM+uyzy2v2OWyADkx/dNHsmYZxvk7Z+VQjOgmHdYMa1964ei6K1xWiSC5SOPrEZRtjyAruDwckgHOc/v0ThrgMdi2F7ScNqnJHN1rmBZS5XsnYybRs8iTjGf4TyCc1Ih1cOsOsFEEU73WPv6qckZc7bSKZUO0SCQMATvX15PG7JoIr4R1UIBp4j1QqdvatvhaWNgwZ8jJwvpj4en/HdUmwzUEjWoueKEAp6fxD5UvtDzRu5qLckxThVqLqWUgMVPqPKovBIoDRCqdSsr+SW2e1mV+qbd96dozxjwjkd/p9Mipy1IbXCI4ursH1T7WWNDiuc0sOXXXKq6ajaXM1ykkSxuAm0CR2URtnO4ADnj5d3xNWMc0ChUosN5cC3+tqXuNPv5Euo1dADFcLE29skyEFc8cbcY86m2IwEEjSK+nNVPgxXBwB0Op68l7/Z1zvtGREHVE7wz5GCwJOAo5x5jHxzXL7aEHripdi+rSNHWrNMRae0Wn3cKBVllMuwgngEnbz5YBFRMQF4J0UUxBIhuaMzX8Lg2nXeWLyC5UyqxSV9ocBMYOB5HnuqXaN0Cn9qBgxNJrw0KMen36NGDIrKUhWRjI2U6t2Y447WQ2MnHdzQYjCMtfEKIgxQRjq4En11Lm2l3vVSJ2CpmDjMmWI7Wcnbg94xkeXfUhFYDXZq/K52ESlNtfnYriCGRAm6VgAB93gYHHdnArB2b796+aaqDlXitjQQifxj5UttDzRu5q5uSYpwq0UIRQhFCEUIRQhFCEUIRQhFCEUIS0/j9qTWh5o3c1YzJM05VaKEIoQihCKEIoQihCKEIoQihCKEJafx+1JrQ80buasZkv//Z" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Jungle Gyms & Trampolines</p>
+                <p>Bounce and soar with joy on our trampolines. It's fun for all ages, providing endless laughter and playful moments.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,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" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Event Space</p>
+                <p>Mangam Resort provides event spaces suitable for a wide range of occasions. From celebrations to corporate gatherings, our versatile venues can be tailored to your needs.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,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" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Accommodation</p>
+                <p>Whether you need a brief respite or an extended stay, our guest house offers flexible accommodations with hourly rates, 3-hour packages, day rates, and night rates.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,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" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Change Rooms</p>
+                <p>Our clean and convenient change rooms are available to all guests, providing a comfortable space to freshen up.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBEQACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABAIFBgMBB//EADoQAAIBAwMACAMGAwkBAAAAAAECAwAEEQUSIQYTIjEyQVGBYXGRFCNSobHwQoKiFRYkQ2KywdHhB//EABoBAAIDAQEAAAAAAAAAAAAAAAAFAgMEAQb/xAA1EQABAgMEBwgBBAMBAAAAAAABAAIDBBEFEiExQVFhcaHR8BMiMjOBkbHB4QYjQvEUcqJi/9oADAMBAAIRAxEAPwD7jQhFCEUIRQhFCEUIRQhFCEUIRQhFCEvP4x8qT2h5o3c1Y3JMU4VaKEIoQihCDxQhU2sdJdO0smOWQyTj/Ki5I+fkKxTE/BgYE1OoLdK2dHmcWig1nrFZqfp9PuPUWMar5dZISfyxS11sur3WJuywG/yf7BStun0u4C5skK+ZikIP0NdbbJ/kxciWAKdx/uFp9I6Qafq3ZtpSsw74ZBhv/famkvOQpgdw46kmmZGPLeYMNehWtalkRQhLT+MfKk9oeaN3NWNyTNOFWihCKEKDyojIrHtOcKPWq3xWMc1rjiclyoWZ6V63cRyppWkBmvZgNxTvQH09D8fIUvnpp7XCDB8RTezpNjgZiPgwceuKp7Po5BbybLqOTUb/AL2t4n2xx557b/v5GpSlisp2ky7r5Pwq5/8AUcS8YUo3HrPQOJV/b6VqUa/cDS7JfJYbbefcnGabshyUMUaw8B9JG+JaUY1fEA9z9rnd2Gp4P2qy03U4/NRH1cnsTxXXwJGMLrgRvxHNcZMWnLm80h26rTyWeutEguBJdaCZobq3OZLKU4kjPqp7/wB9/lSOfsV0CkSAcNn1yXorM/UMOarBmM9NRiN4+wtH0Q186pC1vdt/i4hye7rF9fn61ZZ8527br/EOKhach/jOvs8B4bOS0lMkrS0/j9qT2h5o3c1YzJM04VaKEJTUZGjhGx3VmOAI1ySawWjFdDhd0kEmgoASfdQiEhuCoW1GZdQhhlObhY5HTcueypUMeODjev1+FeZEe0C/t3Nr2dRU40rnlnTZ6qgdqe9qwXfTrAwvLdRgfa745M5O4xjz47uP1wK9FZcN+MaLQ3saj4otkeajxYTYVRQZU+VeWlrFaQCGFcKOT5knzJPmT601c8uNSqYcNsNt1oXaoqxQYv1gAVSvmS3I9qEKv1bTTcbbq0Ijv4OYpPxf6W9VNXwot3uu8Jz571kmZcv/AHIeDxkfo7CsbqkiadrFhrtshjhuDulT8DA4kU/n7g1560IJkpwRW5E9e4xXqLLji0ZB0J2YGHL0Iovog5AxTpIkvP4/ak9oeaN3NWMyTNOFWihCo9e6V6JoNyltqt4sNxJE0scewlnA4wMDkk8Ad5q2HLxIuLBVRc4NzWGPSicatYX97aGDTI5XaRAN8sIcODvx4lIKEgcqVHeM1dDsPsILg01NSffR1msEvacExDCGnI7VuBqUURgS2KSwuN8Txc7kyCcHzHaXkeorykeZiyX7bGG406Btyx9sFrJLchgraNhcwK/bQNg8Ng/UU6gRRGhh4FK9aFaDUVXU5KkA4PrVy6vIUdEAkkMjebEAfpQhToQsT02gCaVc9wC3yuvw3Jz+eTS+2helmnV+Uy/T1WTj2jI/g/K19hk2Nvu8XVLn6CtsPwDcsEWl91NajP4/alVoeaN3NdbkmacKtL39ybOzmuFgmuDGhYQwLudz6KPWugVNEL5VrNrqN3rI1fpDarFebClrEBlYIwe4H+JueW+PGBXopFsJsOkN1da83akzGJuULW/Kt9VsdNg05ZLR4jPuQELPvONuTx86qlo0d8W7Eyx0Kqbl5ZkG9DOOGmvBKdFl1HSbrr7KwmvNIdwJYY1y1uQSd0fqMtkp7jnIOa1JaXikFxo4UO+mVUwsyZjRG3HgkDI819PRQqhVAAHcBShjGsaGtFAnK87CyZ7IZ/qakheM0ZkCll3DnGea7RRvtvXa4roK4pLK9M4ftb2Gmx56y7ugzY8lUYJ9gc+1LLRBiXII0ngmtlEQTFmD/EcTl8LUqAqgDgAcUzAolSXn8ftSe0PNG7mrGZJmnCrRQhYH/wCgX9qNQt7eSeOOaKNj1TN23Bxjave3cRx6U4sw3WuJGB6x1JNaktEjubcGVfpUtpp+o3SLJBpU0aNj77UZBap7Lhnb6LWuJNtBIDh6Yn6HErMyzYUNodHdTh+Sr6xh6Q6bb7LW/wBJij3FjHJp1xtz8ZC/549qXxXQozrzmkn/AGb8UW2DMy0u262oGstdT3ITc3SS8tYBHr1sdMDYxqNs3X2x/nxlP5lx8apEs1x/aN7YcD7afQreIl5oc2m/QrFLO1kiWdYkukkAbrYlErSemZGOfpjHlWcuLTTI7eSr7OI/xOoNnPl7phba4uV2dUllAefCryt+qj+r2rl6mOasECEG3Q0UTMEEtoDuujLEByZR2h7jA/KoOcM1Y1t3AJaxs2n1OXVLpSGZert0bvjj9T8SefgMCskOGXRDGduG78rZEihsIQWbztPIK2rUsqWn8ftSa0PNG7mrGZJmnKrRQhRZQ3fx8jihcIquaW0SPvVRv/EeT9TXbxOCrbBhtdeAx16fddTyK4rUlLYAFmtXETN4k25R/mv/AFVgiaHY/KwvkrpL5c3D/wAnePsUKzsnRaGGdptOS+0mZjln0q4UROfUxP2f6a1f5JcKPIcP/Qx9xjxURFmGYPhHe0gjiQU5baZrWNk3SHUdv4jbWob/AGn9KqfEhaIY93c1oY97s2kb6fRKurazWEZeaaZ/NpXz+QwB7Cs7iCrwmq4uooQlp/GPlSe0PNG7mrG5JmnCrWb6f22pX+grYaRJcQ3F1dQRNcW5IaBN4LPkEYAANXS7mNfefkK/C4a0wWPEfTgJqrXUF093q1tDHGkEpEdmwdo3Kt3Kdnbz6kVprL1aBkCfXT84KPeXOa36cPaWSWyXsd1p9ndwSpLISt2AyiPLA4LlCSG/Ep7s10OlrxvZEj018eCO8p/Yuk66hamS31iW6DWvUTLdssEUQjTrA4zgtuD7gwJbjFcvQrpxGnRjXQjFeD++Txa281nqUY1iEtbKJNxs26zaAAD9392wJ+KE0VlxdxHdz29FGKteitn0qt+lMM+uyzy2v2OWyADkx/dNHsmYZxvk7Z+VQjOgmHdYMa1964ei6K1xWiSC5SOPrEZRtjyAruDwckgHOc/v0ThrgMdi2F7ScNqnJHN1rmBZS5XsnYybRs8iTjGf4TyCc1Ih1cOsOsFEEU73WPv6qckZc7bSKZUO0SCQMATvX15PG7JoIr4R1UIBp4j1QqdvatvhaWNgwZ8jJwvpj4en/HdUmwzUEjWoueKEAp6fxD5UvtDzRu5qLckxThVqLqWUgMVPqPKovBIoDRCqdSsr+SW2e1mV+qbd96dozxjwjkd/p9Mipy1IbXCI4ursH1T7WWNDiuc0sOXXXKq6ajaXM1ykkSxuAm0CR2URtnO4ADnj5d3xNWMc0ChUosN5cC3+tqXuNPv5Euo1dADFcLE29skyEFc8cbcY86m2IwEEjSK+nNVPgxXBwB0Op68l7/Z1zvtGREHVE7wz5GCwJOAo5x5jHxzXL7aEHripdi+rSNHWrNMRae0Wn3cKBVllMuwgngEnbz5YBFRMQF4J0UUxBIhuaMzX8Lg2nXeWLyC5UyqxSV9ocBMYOB5HnuqXaN0Cn9qBgxNJrw0KMen36NGDIrKUhWRjI2U6t2Y447WQ2MnHdzQYjCMtfEKIgxQRjq4En11Lm2l3vVSJ2CpmDjMmWI7Wcnbg94xkeXfUhFYDXZq/K52ESlNtfnYriCGRAm6VgAB93gYHHdnArB2b796+aaqDlXitjQQifxj5UttDzRu5q5uSYpwq0UIRQhFCEUIRQhFCEUIRQhFCEUIS0/j9qTWh5o3c1YzJM05VaKEIoQihCKEIoQihCKEIoQihCKEJafx+1JrQ80buasZkv//Z" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Convenience Store</p>
+                <p>Our on-site convenience store offers a variety of snacks, drinks, and essentials to make your stay even more enjoyable.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,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" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Braai Areas</p>
+                <p>Enjoy a traditional South African barbecue at our well-equipped braai areas, perfect for family gatherings and social events.</p>
+            </div>
+        </div>
+        <div class='amencarousel__item'>
+            <div class='amencarousel__item-head'>
+                <img src="data:image/jpeg;base64,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" alt="Icon" />
+            </div>
+            <div class='amencarousel__item-body'>
+                <p class='amentitle'>Reservable Lapas</p>
+                <p>For a more private and exclusive experience, our reservable lapas provide a perfect spot for relaxation and enjoyment.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<br />
+<br />
+
+<section class="reviews-section">
+    <h2 style="color: white;">What Our Guests Say</h2>
+    <p style=" color: white;">We take pride in serving our guests with the best experience. Read what they say.</p>
+    <div class="reviews-carousel">
+        <button class="carousel-btn prev" id="prevBtn">&#8249;</button>
+        <div class="reviews-container" id="reviewsContainer">
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://lh3.googleusercontent.com/places/ANXAkqHJ8wI4TQ_Wn94SUYPBWN_5ssXIjR5YMERBtg_PpVOF4QitgHvuFBtBP2SC8Gm90sWoaFiNYaFE-RNg6up0qJBTEyjjWaH-P6o=s1600-w300-h300" alt="Guest photo" class="guest-photo">
+                    <div>
+                        <h3>Mangam Resort and Guest House</h3>
+                        <div class="rating">
+                            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                            <span>4.0</span>
+                        </div>
+                        <p>Based on 116 reviews</p>
+                    </div>
+                </div>
+                <button class="review-btn">Review us on Google</button>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://mangamresort.co.za/wp-content/uploads/2023/11/ChIJtawplofHvx4R733QX191vC4_e221584ae58b6439fe37a9fc8765111e.jpg" alt="Guest photo" class="guest-photo">
+                    <div>
+                        <h3>Kgothatso Mog</h3>
+                        <span>9 months ago</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <span>4.0</span>
+                </div>
+                <p>Beautiful place</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://mangamresort.co.za/wp-content/uploads/2023/11/ChIJtawplofHvx4R733QX191vC4_92a2508fd39d8a032195f10ca70025d3.jpg" alt="Guest photo" class="guest-photo">
+                    <div>
+                        <h3>Jas Don</h3>
+                        <span>9 months ago</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span>5.0</span>
+                </div>
+                <p>The place is very nice and improving every day. I know that if we continue supporting the place it will become a 5-star resort.</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://mangamresort.co.za/wp-content/uploads/2023/11/ChIJtawplofHvx4R733QX191vC4_6bc496530db32ad776dbff493069c328.jpg" alt="Guest photo" class="guest-photo">
+                    <div>
+                        <h3>Lebogang Anna</h3>
+                        <span>a year ago</span>
+                    </div>
+                </div>
+                <div class="rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <span>4.0</span>
+                </div>
+                <p>It's a very nice place to visit but it was crowded. Still not bad.</p>
+            </div>
+        </div>
+        <button class="carousel-btn next" id="nextBtn">&#8250;</button>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+
+<div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+</div>
+
+
+    

@@ -1,0 +1,489 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manga\\source\\repos\\ManResort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\paymentsuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\paymentfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\paymentfailed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\ticketconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\ticketconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\ticketconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\ticketconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\manga\\AppData\\Roaming\\Microsoft\\UserSecrets\\8385209a-928e-4ef2-b996-10441f76db0a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\tickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\migrations\\20241211112031_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\migrations\\20241211112031_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\tickets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\tickets.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\controller\\ticketvalidationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\controller\\ticketvalidationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\model\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\paymentsuccess.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\paymentsuccess.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\accommodation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\accommodation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|c:\\users\\manga\\source\\repos\\manresort\\manresort\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0208D110-B5A5-4CB5-8CD2-808F04173BC6}|ManResort\\ManResort.csproj|solutionrelative:manresort\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\manga\\AppData\\Roaming\\Microsoft\\UserSecrets\\8385209a-928e-4ef2-b996-10441f76db0a\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\8385209a-928e-4ef2-b996-10441f76db0a\\secrets.json",
+              "ToolTip": "C:\\Users\\manga\\AppData\\Roaming\\Microsoft\\UserSecrets\\8385209a-928e-4ef2-b996-10441f76db0a\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\8385209a-928e-4ef2-b996-10441f76db0a\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-25T16:26:46.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ManResort\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ManResort\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABYEAAAAAAAAAAAAADgEAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T12:28:12.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\TicketConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\TicketConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\TicketConfirmation.cshtml.cs",
+              "RelativeToolTip": "ManResort\\Pages\\TicketConfirmation.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:58:29.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\TicketConfirmation.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\TicketConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\TicketConfirmation.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\TicketConfirmation.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T09:58:24.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentFailed.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\PaymentFailed.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\PaymentFailed.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\PaymentFailed.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\PaymentFailed.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T11:01:55.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\Index.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T11:57:25.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\PaymentSuccess.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\PaymentSuccess.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\PaymentSuccess.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\PaymentSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T10:56:48.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\appsettings.json",
+              "RelativeDocumentMoniker": "ManResort\\appsettings.json",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\appsettings.json",
+              "RelativeToolTip": "ManResort\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T15:33:20.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tickets.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Tickets.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Tickets.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Tickets.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\Tickets.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T18:29:37.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Accommodation.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Accommodation.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Accommodation.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Accommodation.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\Accommodation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T18:31:20.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T18:32:23.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241211112031_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Migrations\\20241211112031_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ManResort\\Migrations\\20241211112031_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Migrations\\20241211112031_InitialCreate.cs",
+              "RelativeToolTip": "ManResort\\Migrations\\20241211112031_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:20:32.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Error.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T05:38:25.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tickets.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Tickets.cshtml.cs",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Tickets.cshtml.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Tickets.cshtml.cs",
+              "RelativeToolTip": "ManResort\\Pages\\Tickets.cshtml.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:31:44.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicketValidationController.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Controller\\TicketValidationController.cs",
+              "RelativeDocumentMoniker": "ManResort\\Controller\\TicketValidationController.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Controller\\TicketValidationController.cs",
+              "RelativeToolTip": "ManResort\\Controller\\TicketValidationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:55:34.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Model\\Ticket.cs",
+              "RelativeDocumentMoniker": "ManResort\\Model\\Ticket.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Model\\Ticket.cs",
+              "RelativeToolTip": "ManResort\\Model\\Ticket.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:33:46.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Contact.cshtml.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Contact.cshtml.cs",
+              "RelativeToolTip": "ManResort\\Pages\\Contact.cshtml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:50:31.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Program.cs",
+              "RelativeDocumentMoniker": "ManResort\\Program.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Program.cs",
+              "RelativeToolTip": "ManResort\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T18:16:51.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TicketDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Data\\TicketDBContext.cs",
+              "RelativeDocumentMoniker": "ManResort\\Data\\TicketDBContext.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Data\\TicketDBContext.cs",
+              "RelativeToolTip": "ManResort\\Data\\TicketDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:30:52.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentSuccess.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\PaymentSuccess.cshtml.cs",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\PaymentSuccess.cshtml.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\PaymentSuccess.cshtml.cs",
+              "RelativeToolTip": "ManResort\\Pages\\PaymentSuccess.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:00:01.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Accommodation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Accommodation.cshtml.cs",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Accommodation.cshtml.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Accommodation.cshtml.cs",
+              "RelativeToolTip": "ManResort\\Pages\\Accommodation.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T14:47:29.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "ManResort\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T11:41:14.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T12:22:51.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T14:44:51.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\About.cshtml",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\About.cshtml",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\About.cshtml",
+              "RelativeToolTip": "ManResort\\Pages\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T18:32:53.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "About.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\About.cshtml.cs",
+              "RelativeDocumentMoniker": "ManResort\\Pages\\About.cshtml.cs",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\Pages\\About.cshtml.cs",
+              "RelativeToolTip": "ManResort\\Pages\\About.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T10:31:30.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ManResort\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\manga\\source\\repos\\ManResort\\ManResort\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ManResort\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvy0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-25T12:39:43.489Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

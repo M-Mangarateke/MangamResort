@@ -1,0 +1,56 @@
+﻿@page
+@model ManResort.Pages.TicketsModel
+@{
+    ViewData["Title"] = "Purchase Tickets";
+}
+
+<div class="tikform-container">
+    <h2>Purchase Tickets</h2>
+
+    <form method="post">
+        <div class="tikform-group">
+            <label for="name">Full Name(With Surname):</label>
+            <input type="text" asp-for="Ticket.CustomerName" id="name" required />
+        </div>
+        <div class="tikform-group">
+            <label for="email">Email:</label>
+            <input type="email" asp-for="Ticket.CustomerEmail" id="email" required />
+        </div>
+        <div class="tikform-group">
+            <label for="redeemDate">Redeem Date:</label>
+            <input type="date" asp-for="Ticket.RedeemDate" id="redeemDate" required />
+        </div>
+        <div class="tikform-group">
+            <label for="adults">Adults:</label>
+            <input type="number" asp-for="Ticket.Adults" id="adults" min="0" placeholder="0" />
+        </div>
+        <div class="tikform-group">
+            <label for="kids">Kids:</label>
+            <input type="number" asp-for="Ticket.Kids" id="kids" min="0" placeholder="0" />
+        </div>
+        <div class="tikform-group">
+            <label for="holidayAdults">Adults(HOLIDAY):</label>
+            <input type="number" asp-for="Ticket.HolidayAdults" id="holidayAdults" min="0" placeholder="0" />
+        </div>
+        <div class="tikform-group">
+            <label for="holidayKids">Kids(HOLIDAY):</label>
+            <input type="number" asp-for="Ticket.HolidayKids" id="holidayKids" min="0" placeholder="0" />
+        </div>
+        <div class="tikform-group">
+            <label for="coolerBoxes">Cooler Boxes:</label>
+            <input type="number" asp-for="Ticket.CoolerBoxes" id="coolerBoxes" min="0" placeholder="0" />
+        </div>
+        <div class="tikform-group">
+            <label for="businessEntrance">Business Entrance:</label>
+            <input type="number" asp-for="Ticket.BusinessEntrance" id="businessEntrance" min="0" placeholder="0" />
+        </div>
+        <div class="tikform-group">
+            <label for="businessElectricEntrance">Business Electric Entrance:</label>
+            <input type="number" asp-for="Ticket.BusinessElectricEntrance" id="businessElectricEntrance" min="0" placeholder="0" />
+        </div>
+
+        <div class="button-group">
+            <button type="submit" class="btn save">Continue</button>
+        </div>
+    </form>
+</div>

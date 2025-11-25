@@ -1,0 +1,24 @@
+﻿@page
+@model ManResort.Pages.AccommodationModel
+@{
+    ViewData["Title"] = "Accommodation";
+}
+
+<h1 style="color: white; text-align: center;">Accommodation at Mangam Resort & Guest House</h1>
+
+<section class="accommodation-gallery">
+    @foreach (var accommodation in Model.Accommodations)
+    {
+        <div class="acc-card">
+            <div class="acc-card-image">
+                <img src="@accommodation.ImageUrl" alt="@accommodation.Name">
+            </div>
+            <div class="acc-card-content">
+                <h2>@accommodation.Name</h2>
+                <p><strong>Hour Rate:</strong> R @accommodation.HourRate</p>
+                <p><strong>Day Rate:</strong> R @accommodation.DayRate</p>
+                <p><strong>Night Rate:</strong> R @accommodation.NightRate</p>
+            </div>
+        </div>
+    }
+</section>

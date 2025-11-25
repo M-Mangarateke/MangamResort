@@ -1,0 +1,15 @@
+﻿@page
+@model ManResort.Pages.PaymentSuccessModel
+@{
+    ViewData["Title"] = "Payment Success";
+}
+<br />
+<div class="tikform-container" style="background-color: #228b22">
+<div style="text-align: center; color: white; margin-top: 50px;">
+    <h1 style="color: white">Payment Successful!</h1>
+    <p>Thank you for your purchase, @Model.Ticket.CustomerName!</p>
+    <p>Your ticket has been successfully generated.</p>
+    <p>We have sent the ticket and QR code to your email: <b>@Model.Ticket.CustomerEmail</b>.</p>
+    <a href="/Index" class="btn btn-success" style="background-color: royalblue; color: white; text-decoration: none; padding: 10px 20px;">Back to Home</a>
+</div>
+</div>

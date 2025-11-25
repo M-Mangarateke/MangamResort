@@ -1,0 +1,46 @@
+﻿@page
+@model ManResort.Pages.ContactModel
+@{
+    ViewData["Title"] = "Contact page";
+}
+
+<div class="contact-container">
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Ohh 7 9 Us!</p>
+        <p>📞 +27 79 437 5352</p>
+        <p>📧 mangamresort@gmail.com</p>
+        <p>📍 Molefe Makinta highway , Soshanguve ,0152</p>
+        <br />
+        <h2>Our Socials</h2>
+        <p>🔗 <a href="https://www.instagram.com/mangam_resort/?locale=kk-KZ" target="_blank">Instagram</a></p>
+        <p>🔗 <a href="https://web.facebook.com/p/Mangam-resort-guest-house-100076113464222/?_rdc=1&_rdr#" target="_blank">Facebook</a></p>
+        <p>🔗 <a href="https://wa.me/27794375352?text=Hello%20I%20am%20interested%20in%20your%20services" target="_blank"> WhatsApp </a><p>
+    </div>
+    <div class="contact-form">
+        <form method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" value="@Model.Name" required />
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="Surname" value="@Model.Surname" required />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" value="@Model.Email" required />
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" required>@Model.Message</textarea>
+            </div>
+            <button class="contact-submit" type="submit">Send</button>
+        </form>
+    </div>
+</div>
+
+@if (!string.IsNullOrEmpty(Model.FeedbackMessage))
+{
+    <p class="feedback-message">@Model.FeedbackMessage</p>
+}
