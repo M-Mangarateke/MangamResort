@@ -25,47 +25,6 @@ ASP.NET Core 8 Razor Pages site for Mangam Resort & Guesthouse. Visitors can bro
 - SMTP credentials for outbound mail
 - (Optional) Azure Blob Storage account/container for QR uploads
 
-## Configuration
-Keep secrets out of source control. Use [dotnet user-secrets](https://learn.microsoft.com/aspnet/core/security/app-secrets) or environment variables instead of committing `appsettings.json`.
-
-Required keys (matching current code paths):
-```jsonc
-{
-  "ConnectionStrings": {
-    "AzureTicketDb": "Server=...;Database=...;User Id=...;Password=...;Encrypt=True;TrustServerCertificate=False;",
-    "AzureBlobStorage": "DefaultEndpointsProtocol=...;AccountName=...;AccountKey=...;EndpointSuffix=core.windows.net"
-  },
-  "EmailSettings": {
-    "SMTPHost": "...",
-    "SMTPPort": 587,
-    "FromEmail": "...",
-    "Password": "..."
-  },
-  "Yoco": {
-    "PublicKey": "pk_test_or_live",
-    "SecretKey": "sk_test_or_live"
-  }
-}
-```
-
-Example user-secrets setup (from repo root):
-```powershell
-cd ManResort
-dotnet user-secrets init --project ManResort/ManResort.csproj
-dotnet user-secrets set "ConnectionStrings:AzureTicketDb" "<connection-string>"
-dotnet user-secrets set "ConnectionStrings:AzureBlobStorage" "<blob-connection-string>"
-dotnet user-secrets set "EmailSettings:SMTPHost" "<smtp-host>"
-dotnet user-secrets set "EmailSettings:SMTPPort" "587"
-dotnet user-secrets set "EmailSettings:FromEmail" "<from-email>"
-dotnet user-secrets set "EmailSettings:Password" "<smtp-password>"
-dotnet user-secrets set "Yoco:PublicKey" "<yoco-public-key>"
-dotnet user-secrets set "Yoco:SecretKey" "<yoco-secret-key>"
-```
-
-Notes:
-- `Tickets.cshtml.cs` currently reads `_configuration["Yoco:SecretKey"]` but `appsettings.json` ships with `YocoSecretKey`. Align keys in config (recommended) or update the code to match.
-- `TicketConfirmation.cshtml` has a hardcoded Yoco public key string; swap it for your key via config or a view model to avoid leaking secrets.
-- Rotate the credentials present in the committed `appsettings.json` before deploying anywhere sensitive.
 
 ## Running Locally
 ```powershell
